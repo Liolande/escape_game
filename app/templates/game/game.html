@@ -193,12 +193,12 @@
                 </div>
               </div>
 
-              <!-- Top 3  -->
+              <!-- Classement  -->
               <div class="row w-100" style="padding: 5%;">
                 <div class="card w-100">
 
                   <div class="card-header">
-                    <p class="card-title"> Top 3</p>
+                    <p class="card-title"> Classement</p>
                   </div>
                   <div class="card-body">
                     <table class="table table-bordered">
@@ -400,8 +400,8 @@
 				}
 				if (game_status == "INGAME"){
 						if (timer_display<=0){
-						window.alert("La partie est terminée.");
-						sTimer.innerHTML = "La partie est terminée.";
+						window.alert("Chers agents, le temps est écoulé mais vous pouvez tout de même finir votre partie.");
+						sTimer.innerHTML = "Chers agents, le temps est écoulé mais vous pouvez tout de même finir votre partie.";
 						clearInterval(loop_timer);
 					}
 					else {
